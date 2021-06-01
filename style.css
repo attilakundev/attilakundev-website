@@ -1,0 +1,230 @@
+/* Good ol' trusty reset */
+html,body,address,blockquote,div,
+form,fieldset,caption,
+h1,h2,h3,h4,h5,h6,
+hr,ul,li,ol,ul,
+table,tr,td,th,p,img {
+	margin:0;
+	padding:0;
+}
+
+img, fieldset {
+	border:none;
+	text-align: center;
+	max-width: 100%;
+}
+
+table {
+	font-size:100%;
+	line-height:150%;
+}
+
+/* set border box */
+html { box-sizing: border-box;  }
+*,*:before,*:after { box-sizing: inherit; }
+
+/* Begin styling */
+body {
+	background: url('img/20181023_101500.jpg');
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: Helvetica, Arial, Arimo, "Liberation Sans", sans-serif;
+	overflow-y: scroll; /* make everything the same size */
+	margin:auto;
+	max-width: 100em;
+}
+
+.main-container {
+	width: 80%;
+	margin: auto;
+	border: 1px solid rgba(255,255,255,.3);
+	border-top: none;
+	border-bottom-color: rgba(255,255,255,.15);
+}
+.table-of-contents{
+	background: rgba(0, 94, 23, 0.6);
+	border-radius: 1em;
+	padding: 1em 1em 1em 2em;
+	border: 1px solid white;
+	box-shadow: 10px 10px 2px 1px rgba(255, 255, 255, 0.2);
+	list-style-type:decimal;
+	max-width: 30em;
+}
+
+/*This is for the table in radio.html*/
+#radiotable tr:nth-child(even) {background-color:RGBA(20,20,20,0.8)}
+#radiotable tr:hover {background-color:RGBA(160,160,160,0.3);}
+#radiotable td, #radiotable th,#radiotable{
+	border: 1px solid #fff;
+	border-collapse: collapse;
+	padding: 10px;
+}
+#radiotable{
+	max-width: 100%;
+}
+
+#radiotable thead {
+	top: 40px;
+	z-index: 999;
+	background: linear-gradient(to right, teal, green	);
+  }
+
+/* Article */
+h1, h2, h3, h4, h5, h6 {
+	padding: .66em 0;
+}
+
+p {
+	line-height: 1.8;
+	padding-bottom: .6em;
+}
+
+article {
+	padding: 1em 2em;
+	background: rgba(0, 94, 23, 0.6	);
+}
+
+
+a {
+	color: inherit;
+	opacity: 0.6;
+}
+
+a:hover{
+	opacity: 1;
+}
+
+article ul, article ol {
+	margin-left: 3em;
+}
+
+article li {
+	margin-bottom: .6em;
+}
+
+/* Top menu */
+header {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+
+/* Main Menu */
+#nav {
+	top: 0;
+	padding: .5em 2em;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	background-image: url("img/logo256.png"), linear-gradient(to bottom,#a7b9a9 0%,#a7b9ab 1px,#6d826c 1px,#355635 50%,#214434 50%,#000000 100%);
+	background-position: 2em 50%, 0 0;
+	background-repeat: no-repeat;
+	background-size: auto 80%, auto;
+
+	
+}
+
+header ul:before {
+	content: ' ';
+	width: 2em;
+	margin-right: 2em;
+}
+#nav li {
+	padding-right: 2em;
+}
+
+#nav li a {
+	color: inherit;
+	opacity: 1;
+}
+
+/* footer */
+footer{
+	text-align: center;
+	padding: .8em 0;
+	background:linear-gradient(to bottom,#a7b9a9 0%,#a7b9ab 1px,#6d826c 1px,#355635 50%,#214434 50%,#000000 100%);
+}
+
+.gallery {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	background: RGBA(50,90,30,0.7);
+}
+
+.gallery li {
+	display: flex;
+	flex-direction: column;
+	padding: .5em;
+	text-align: center;
+}
+
+.gallery li img{
+	max-width: 13em;
+	padding: 1em;
+}
+
+.gallery  a{
+	opacity: 0.8;
+}
+
+.gallery a:hover{
+	opacity: 1;
+}
+.fig-left,
+.figure-left,
+.fig-right,
+.figure-right {
+  width:35%;
+}
+.fig-left,
+.figure-left {
+  float: left;
+  clear: left;
+  margin: auto;
+}
+.fig-right,
+.figure-right {
+  float: right;
+  clear: right;
+  margin: 1em 0 1em 2em;
+}
+article figure {
+	text-align: center;
+	margin: 1em 0;
+	padding: .5em;
+	display: block;
+  }
+
+article figure img {
+border: 1px solid rgba(0,0,0,.7);
+width:35%;
+}
+
+/* highlighter */
+.c1{
+    color: #ddd;
+    font-style: italic;
+}
+
+.nl{
+    color: orange;
+    font-weight: bold;
+}
+
+.nf{
+    color: #5cf;
+}
+
+.mi {
+    color: #faa;
+}
+
+.no {
+    color: #aaf;
+}
