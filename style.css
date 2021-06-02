@@ -33,11 +33,24 @@ body {
 	font-family: Helvetica, Arial, Arimo, "Liberation Sans", sans-serif;
 	overflow-y: scroll; /* make everything the same size */
 	margin:auto;
-	max-width: 100em;
 }
-
+@media only screen and (max-width: 800px) {
+	body {
+		max-width: 100%;
+	}
+	.main-container{
+		width: 100%;
+	}
+  }
+@media only screen and (min-width: 800px) {
+	body {
+		max-width: 100em;
+	}
+	.main-container{
+		width: 80%;
+	}
+  }
 .main-container {
-	width: 80%;
 	margin: auto;
 	border: 1px solid rgba(255,255,255,.3);
 	border-top: none;
