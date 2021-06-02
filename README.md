@@ -1,2 +1,3 @@
 # attilakundev-website
-This is the repo for my website, and you can reach it when it's available. (Update: domain is alive, but i have issues making it working)
+https://github.com/attilakundev/attilakundev-website
+This is the readme file for my website. Currently it works, after figuring out how i can set up the github pages redirection to my website. At least it works!
