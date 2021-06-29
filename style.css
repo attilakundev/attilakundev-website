@@ -41,9 +41,6 @@ body {
 	.main-container{
 		width: 100%;
 	}
-	.osm-map{
-	width:100%;
-	}
   }
 @media only screen and (min-width: 800px) {
 	body {
@@ -52,10 +49,11 @@ body {
 	.main-container{
 		width: 80%;
 	}
-	.osm-map{
-	width:30%;
-	}
   }
+  .osm-map{
+	width:100%;
+	height:20em;
+	}
 .main-container {
 	margin: auto;
 	border: 1px solid rgba(255,255,255,.3);
