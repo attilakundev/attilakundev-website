@@ -219,6 +219,15 @@ border: 1px solid rgba(0,0,0,.7);
 width:35%;
 }
 
+/* OSM Table Of Contents */
+.OSMTOC
+{
+ 	background-color: gray;
+ 	padding: 10px;
+ 	border-radius: 10px;
+ 	text-color: black;
+}
+
 /* highlighter */
 .c1{
     color: #ddd;
