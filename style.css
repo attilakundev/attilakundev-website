@@ -135,7 +135,7 @@ header {
 	list-style-type: none;
 	display: flex;
 	flex-direction: row;
-	background-image: url("img/logo256.png"), linear-gradient(to bottom,#a7b9a9 0%,#a7b9ab 1px,#6d826c 1px,#355635 50%,#214434 50%,#000000 100%);
+	background-image:url(''), linear-gradient(to bottom,#a7b9a9 0%,#a7b9ab 1px,#6d826c 1px,#355635 50%,#214434 50%,#000000 100%);
 	background-position: 2em 50%, 0 0;
 	background-repeat: no-repeat;
 	background-size: auto 80%, auto;
@@ -143,11 +143,6 @@ header {
 	
 }
 
-header ul:before {
-	content: ' ';
-	width: 2em;
-	margin-right: 2em;
-}
 #nav li {
 	padding-right: 2em;
 }
@@ -197,10 +192,13 @@ footer{
 .figure-left,
 .fig-right,
 .figure-right {
-  width:35%;
+  width:auto;
 }
 .figure-left-small {
-  width:auto;
+  height:12em;
+}
+.figure-right-small {
+  height:12em;
 }
 .fig-left,
 .figure-left,
@@ -210,7 +208,8 @@ footer{
   margin: auto;
 }
 .fig-right,
-.figure-right {
+.figure-right
+.figure-right-small {
   float: right;
   clear: right;
   margin: 0em 0 1em 2em;
@@ -219,12 +218,12 @@ article figure {
 	text-align: center;
 	margin: 1em 0;
 	padding: 1em;
-	display: block;
+	display: inline-block;
   }
 
 article figure img {
 border: 1px solid rgba(0,0,0,.7);
-width:35%;
+width:auto;
 }
 
 /* OSM Table Of Contents */
