@@ -1,45 +1,49 @@
-
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<meta property="og:site_name" content="Attila Kun's tech website">
-		<meta property="og:url" content="https://attilakundev.com">
-		<meta property="og:type" content="article">
 		<meta property="og:image" content="https://attilakundev.com/img/logo256.png">
-		<meta property="og:title" content="Complete overhaul on my site and some good and bad news">
-		<meta property="og:description" content="Redid website design on Zumi's MDiocre static website generator. It works fine I guess.. Also, gonna exit neocities in a few months (bad online uploader is one of main reasons)">
 		<meta name="description" content="Redid website design on Zumi's MDiocre static website generator. It works fine I guess.. Also, gonna exit neocities in a few months (bad online uploader is one of main reasons)">
-		<meta name="author" content="ottwiz">
-		<link rel="stylesheet" type="text/css" href="../../style.css">
-		<link rel="shortcut icon" type="image/jpg" href="../../img/favicon.ico"/>
-		<meta name="viewport" content="width=device-width,height=device-height">
-		<title>Complete overhaul on my site and some good and bad news</title>
+		<meta name="author" content="attilakundev">
+		<title>Complete overhaul on my site and some good and bad news - Attila Kun</title>
+		<link rel="stylesheet" href="/style.css" media="screen">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
 	</head>
 	<body>
-		<div class="main-container">
-		<header>
-			<ul id="nav">
-				<li><a href="../../index.html">Home</a></li>
-				<li><a href="../../blog/index.html">Blog</a></li>
-				<li><a href="../../osm.html">OSM</a></li>
-				<li><a href="../../about.html">About</a></li>
-			</ul>
-		</header>
-		<article>
-			<h1>Complete overhaul on my site and some good and bad news</h1>
-<h3>2021-04-17</h3>
+		<div class="top-wrapper">
+			<h1 class="logo">Attila Kun</h1>
+			<a href="#contents" class="skip-to-contents">
+				Skip to contents
+			</a>
+		  <input id="mobile-toggle" type="checkbox">
+          <label for="mobile-toggle">Menu</label>
+			<nav>
+				<ul id="main-menu">
+					<li><a href="/">Home</a></li>
+					<li><a href="/blog">Blog</a></li>
+					<li><a href="/osm">OSM</a></li>
+					<li><a href="/about">About</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<article id="contents">
+			<h2>Complete overhaul on my site and some good and bad news</h2>
+<p><time datetime="2021-04-17">April 17, 2021</time></p>
 <p>I did a huge overhaul on my website in the past few days, and there is only one page left, but I don't want to bother making that, I just wanted to make sure every existing page is getting migrated to the new website generation method.</p>
 <p>The way now I make my website is that the sources for all of this content here is made in <code>.md</code> (markdown), but in the header of the file I include the template file, and maybe the timestamp, when the thing was done.</p>
 <p>After that, I pass the .md files into the <a href="https://github.com/ZoomTen/MDiocre">MDiocre</a> static website generator made by <a href="https://zumi.neocities.org/">Zumi</a>, and then it makes the content into a working website! Sounds cool, isn't it?</p>
 <p>Also, I've deleted such of mess that I don't feel I need it. If I want to move to a more serious hosting service than neocities, then I should consider what I put on the internet and what not. Of course, some of the material I did is available on archive.org, I'm fine with it, just it's better to keep the stuff on a standard that is considered not cringe.</p>
-<p>The bad news is that since neocities can't handle this amount of files, that I'm storing on the server (i have to use the slow web uploader, because i'm on the free plan), I'm leaving neocities slowly maybe probably in a few months. </p>
+<p>The bad news is that since neocities can't handle this amount of files, that I'm storing on the server (i have to use the slow web uploader, because i'm on the free plan), I'm leaving neocities slowly maybe probably in a few months.</p>
 <p>I haven't read all of the neocities users' stuff since they also generate a lot of stuff, I appreciate it, but I'm kinda on a level which is more like Zumi so being a university student, do some stuff for fun, but not being as toxic that is unbearable like the "forced 90s" style, more like a unique style that represents you but not on a "vaporwaveized" style.</p>
 <p>I know, it's me, but yeah, that's what I can elaborate about. I remember <a href="https://mariteaux.somnolescent.net/">Mariteaux</a> saying that he's got bored of the stupidity that is going on neocities, and if I consider making a website which contains bits of my real me aka real name, I'd say it's not a very good idea to keep stuff that is boring, since you know archive.org and co. knows everything.</p>
 		</article>
+
 		<footer>
-			<div class="copy">&copy; 2018-2021 Attila Kun. All rights reserved. Powered by <a href="https://github.com/ZoomTen/MDiocre">MDiocre</a>.</div>
+			<hr>
+			&copy;2018-2021 Atilla Kun. All rights reserved.
+			Powered by <a href="https://zumi.neocities.org/stuff/mdiocre/">MDiocre</a>.
 		</footer>
-	</div>
 	</body>
 </html>
-
