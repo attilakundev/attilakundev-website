@@ -286,3 +286,32 @@ body {
 .osm-map iframe{
 	border: 1px solid black;
 }
+
+.blog-image {
+	display: block;
+	max-width: 100%;
+	margin: 1em auto;
+	border: 1px solid #000;
+}
+
+.blog-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	justify-content: center;
+	margin: 1em 0;
+}
+
+.blog-gallery img {
+	max-width: 48%;
+	border: 1px solid #000;
+}
+
+.blog-gallery figure {
+	margin: 0;
+}
+
+.blog-gallery figcaption {
+	text-align: center;
+	font-size: .9em;
+}
