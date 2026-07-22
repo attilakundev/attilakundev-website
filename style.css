@@ -23,13 +23,13 @@ hr {
 /* begin basic layout */
 /* base style */
 html {
-	font-family: sans-serif;
+	font-family: tahoma, verdana, arial, helvetica, sans-serif;
 	background-image: url('img/background.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family: serif;
+	font-family: tahoma, verdana, arial, helvetica, sans-serif;
 }
 a {
 	color: inherit;
