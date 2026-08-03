@@ -308,7 +308,7 @@ body {
 }
 
 .blog-gallery img {
-	max-width: 48%;
+	max-width: 100%;
 	border: 1px solid #000;
 }
 
